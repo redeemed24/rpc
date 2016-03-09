@@ -1,0 +1,17 @@
+.footer{
+  background-image:url('../images/footer.jpg');
+  margin-top:-6px;
+  border:none;
+  width:801px;
+  height:30px;
+  border-radius: 0px 0px 20px 20px;
+  opacity:0.9;
+  filter:alpha(opacity=60);
+}
+
+#foot{
+  position:relative;
+  padding:3px;
+  text-align:center;
+  font-size:12px;
+}

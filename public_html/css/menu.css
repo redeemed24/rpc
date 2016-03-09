@@ -1,0 +1,61 @@
+
+.menu_list {	
+	width: 196px;
+}
+
+.menu_head:hover{
+    color:white;
+    background:pink url(left.png) right no-repeat;
+    
+}
+
+.menu_head {
+	padding: 5px 10px;
+	cursor: pointer;
+	position: relative;
+	margin:1px;
+        opacity:0.7;
+        filter:alpha(opacity=60);
+        background: white url(left.png) center right no-repeat;
+        font-size:15px;
+        border-radius: 0px 10px 0px 10px;
+        font-weight: 100 bold;
+}
+.menu_body {
+        display:block;
+        background:white center no-repeat;
+        padding:3px 3px;
+        color:black;
+        font-size:14px;
+	display:none;
+        width: 170px;
+        opacity:0.5;
+        filter:alpha(opacity=60);
+        border-radius: 0px 10px 0px 10px;        
+}
+.menu_body a:link{
+  padding:3px 3px;
+  display:block;
+  color:black;
+  background:white center no-repeat;
+  padding-left:11px;
+  font-weight:lighter;
+  text-decoration:none;
+  list-style:none;
+  border-radius: 0px 10px 0px 10px;
+}
+
+.menu_body a:hover{
+    text-indent:1px;
+    background:pink center no-repeat;
+    color:black;
+    text-decoration:underline;
+    border-radius: 0px 10px 0px 10px;
+  }
+  
+.menu_body a:visited{
+    text-indent:2px;
+    color:black;
+    text-decoration:underline;
+    border-radius: 0px 10px 0px 10px;
+}
